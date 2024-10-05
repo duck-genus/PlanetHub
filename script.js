@@ -7,8 +7,8 @@ const infoCollected = [
     info: "Kepler-22b is significant for the study of potentially habitable exoplanets. It was one of the first confirmed planets in the habitable zone of a star similar to our Sun, making it a key target for understanding the conditions that could support life beyond Earth",
     link: "https://www.space.com/24128-kepler-22b.html",
     img: "mainimage_Kepler22b_Planet-removebg-preview.png",
-    height: 233,
-    width: 280,
+    height: 230,
+    width: 300,
     visualize: "https://eyes.nasa.gov/apps/exo/#/planet/Kepler-22_b",
   },
   {
@@ -20,7 +20,7 @@ const infoCollected = [
     link: "https://phys.org/news/2016-05-combined-climate-orbit-kepler-62f-sustain.html",
     img: "5748162991463-removebg-preview.png",
     height: 180,
-    width: 280,
+    width: 300,
     visualize: "https://eyes.nasa.gov/apps/exo/#/planet/Kepler-62_f",
   },
   {
@@ -44,7 +44,7 @@ const infoCollected = [
     link: "https://en.wikipedia.org/wiki/Gliese_667_Cc",
     img: "gliese-667cc-removebg-preview.png",
     height: 200,
-    width: 260,
+    width: 250,
     visualize: "https://eyes.nasa.gov/apps/exo/#/planet/GJ_667_C_c",
   },
   {
