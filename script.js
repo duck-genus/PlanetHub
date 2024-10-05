@@ -57,7 +57,7 @@ const infoCollected = [
     img: "TRAPPIST-1e_2018_impression-removebg-preview.png",
     height: 200,
     width: 200,
-    visualize: "https://eyes.nasa.gov/apps/exo/#/planet/TRAPPIST-1_ez",
+    visualize: "https://eyes.nasa.gov/apps/exo/#/planet/TRAPPIST-1_e",
   },
 ];
 
