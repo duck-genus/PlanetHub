@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  /* outline: 1px solid red; */
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url("./images/background.avif");
+  color: white;
+}
+
+section {
+  margin: 1rem;
+}
+
+section:not(#navbar, #main) {
+  margin-top: 3.6rem;
+}
+
+section > h1 {
+  font-size: 2rem;
+  margin-bottom: 0.8rem;
+}
+
+section > p {
+  line-height: 1.8;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid white;
+}
+
+#logo {
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+#searchButton {
+  height: 20px;
+  margin-right: 0.4rem;
+}
+
+#searchButton > svg {
+  fill: white;
+  height: 20px;
+  width: 20px;
+}
+
+#main {
+  margin-top: 6rem;
+  margin-bottom: 0;
+  border-radius: 12px;
+}
+
+#main > h1 {
+  text-align: center;
+  padding-top: 2rem;
+  font-size: 2.6rem;
+}
+
+.planetContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.planetContainer > img {
+  margin: auto 0;
+}
+
+.info > h1 {
+  font-size: 2rem;
+  display: flex;
+  gap: 1rem;
+  width: fit-content;
+}
+
+.info {
+  width: 70%;
+  max-width: 500px;
+  line-height: 1.6;
+}
+
+.info > h1 > span {
+  font-size: 1rem;
+  background-color: #777;
+  padding: 0.3rem 0.6rem;
+  margin: auto;
+  border-radius: 16px;
+}
+
+.info span {
+  display: block;
+}
+
+.info p {
+  margin-top: 1rem;
+}
+
+#nextWrapper {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  width: 100%;
+}
+
+#next {
+  background-color: #ff6940;
+  font-size: 1rem;
+  padding: 1rem;
+  width: 60%;
+  color: inherit;
+  text-align: center;
+  text-decoration: none;
+}
+
+footer {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  user-select: none;
+}
+
+footer span {
+  text-decoration: underline;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+@media (max-width: 600px) {
+  .planetContainer {
+    flex-direction: column-reverse;
+    gap: 2rem;
+  }
+
+  .info {
+    width: 100%;
+  }
+
+  .idea-info > p {
+    font-size: 1rem !important;
+  }
+}
+
+/* Styles for spacecrafted */
+
+#popup {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+#title {
+  text-align: center;
+  margin: 2rem;
+  margin-bottom: 4rem;
+  font-size: 2.8rem;
+  font-family: "Protest Strike", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ideasWrappers {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.75);
+  height: 32rem;
+  margin-bottom: 2rem;
+}
+
+.ideasWrappers:nth-child(2n + 1) {
+  flex-direction: row-reverse;
+}
+
+.idea-info {
+  width: 100%;
+}
+
+.idea-info h1 {
+  text-align: center;
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+.idea-info p {
+  padding: 0.4rem;
+  line-height: 1.8;
+  padding: 2rem;
+  font-size: 1.4rem;
+}
+
+.references {
+  padding: 1rem 2rem;
+}
+
+.references > span {
+  font-weight: 900;
+}
+
+.references a {
+  color: inherit;
+}
+
+@media (max-width: 1555px) {
+  .ideasWrappers {
+    height: fit-content;
+    width: 80vw;
+    flex-direction: column-reverse !important;
+  }
+
+  #spacecrafted-root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
