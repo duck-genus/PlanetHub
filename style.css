@@ -31,6 +31,12 @@ section > p {
   line-height: 1.8;
 }
 
+section > h2 {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-top: 3.2rem;
+}
+
 #navbar {
   display: flex;
   align-items: center;
@@ -55,6 +61,54 @@ section > p {
   fill: white;
   height: 20px;
   width: 20px;
+}
+
+#quotesWrapper {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-evenly;
+}
+
+.quotes {
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+  height: fit-content;
+  width: 24vw;
+  margin-top: 2.6rem;
+  border-radius: 12px;
+  padding: 2rem;
+  padding-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.quotes > svg {
+  padding-left: -1rem;
+  height: 2rem;
+  width: 1rem;
+}
+
+.quote-by {
+  margin-top: 1rem;
+  text-align: end;
+}
+
+.quote-by::before {
+  content: "— ";
+}
+
+#new-quote[contenteditable="true"] {
+  outline: none;
+}
+
+#quote-ref {
+  display: flex;
+  justify-content: center;
+  margin: 1.4rem;
+}
+
+#quote-ref > a {
+  color: inherit;
 }
 
 #main {
@@ -125,6 +179,10 @@ section > p {
   text-decoration: none;
 }
 
+#next:hover {
+  text-decoration: underline;
+}
+
 footer {
   background-color: black;
   display: flex;
@@ -141,6 +199,15 @@ footer span {
 }
 
 @media (max-width: 600px) {
+  #quotesWrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .quotes {
+    width: 75vw;
+  }
+
   .planetContainer {
     flex-direction: column-reverse;
     gap: 2rem;

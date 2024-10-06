@@ -20,7 +20,7 @@ const infoCollected = [
     link: "https://phys.org/news/2016-05-combined-climate-orbit-kepler-62f-sustain.html",
     img: "5748162991463-removebg-preview.png",
     height: 180,
-    width: 300,
+    width: 290,
     visualize: "https://eyes.nasa.gov/apps/exo/#/planet/Kepler-62_f",
   },
   {
