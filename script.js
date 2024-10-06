@@ -24,11 +24,11 @@ const infoCollected = [
     visualize: "https://eyes.nasa.gov/apps/exo/#/planet/Kepler-62_f",
   },
   {
-    name: "PROXIMA CENTAURI B",
+    name: "PROXIMA B",
     type: "Earthish",
     mass: "1.17",
     radius: "1.08",
-    info: "Proxima Centauri b is particularly significant because it is the closest potentially habitable exoplanet to Earth, making it a prime target for future studies and observations in the search for extraterrestrial life. Its proximity offers unique opportunities for exploration and potential future missions.",
+    info: "PROXIMA B (or Proxima Centauri b) is particularly significant because it is the closest potentially habitable exoplanet to Earth, making it a prime target for future studies and observations in the search for extraterrestrial life. Its proximity offers unique opportunities for exploration and potential future missions.",
     link: "https://theplanets.org/proxima-centauri-b/",
     img: "Proxima-Centauri-b-removebg-preview.png",
     height: 180,
