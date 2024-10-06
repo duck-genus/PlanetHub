@@ -347,8 +347,10 @@
         if (element.parentElement.dataset.clicked != "true") {
           if (element.dataset.value == "wrong") {
             element.classList.add("wrong");
+            element.innerHTML += " 🙅‍♂️";
           } else {
             element.classList.add("correct");
+            element.innerHTML += " 🎉";
           }
           element.parentElement.dataset.clicked = "true";
           element.style.cursor = "not-allowed";
