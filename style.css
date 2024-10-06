@@ -272,6 +272,79 @@ footer span {
   font-size: 1.4rem;
 }
 
+.quizWrapper {
+  background-color: #333;
+  border-radius: 12px;
+  margin: 2rem;
+  width: fit-content;
+  padding: 2rem;
+}
+
+.quizWrapper svg {
+  height: 2.8rem;
+  width: 2.8rem;
+  background-color: #666;
+  padding: 0.4rem;
+  border-radius: 50%;
+}
+
+.quizTitleWrapper {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.quizQuestion {
+  display: flex;
+  font-size: 1.6rem;
+  margin-top: 2rem;
+}
+
+.quizSubmitButtonsWrapper {
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  gap: 0.8rem;
+  width: fit-content;
+}
+
+.quizSumitButtons {
+  background-color: #111;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 0.8rem;
+  min-width: 5rem;
+  text-align: center;
+  border-radius: 12px;
+  user-select: none;
+  border: 2px solid #666;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.quizSumitButtons:hover {
+  border: 2px solid #888;
+}
+
+.wrong {
+  background-color: red;
+  border: 2px solid #333;
+}
+
+.correct {
+  background-color: green;
+  border: 2px solid #333;
+}
+
+.wrong:hover {
+  border: 2px solid #333;
+}
+
+.correct:hover {
+  border: 2px solid #333;
+}
+
 .references {
   padding: 1rem 2rem;
 }
